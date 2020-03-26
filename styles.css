@@ -1,0 +1,107 @@
+body, html    {
+    height:100%;
+    width:100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    display: flex;
+}
+body a:hover   {
+    color:rgb(95, 95, 95);
+    text-decoration: underline;
+}
+body a   {
+    text-align: center;
+    color:rgb(73, 73, 73);
+    text-decoration: none;
+}
+.contenedor     {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-content:flex-start;
+}
+.header         {
+    display:flex;
+    width:100%;
+    height:15%;
+}
+.texto      {
+    font-size: inherit;
+    color:white;
+    text-align: justify;
+}
+.logo         {
+    display:inline-block;
+    height:100%;
+    width:15%;
+    background-color: rgb(10, 131, 131);
+    color: aqua;
+}
+.centro         {
+    display:flex;
+    height:100%;
+    width:35%;
+    background-color: rgb(9, 156, 156);
+    color:rgb(190, 255, 252);
+    text-align: left;
+}
+.rheader         {
+    display:flex;
+    height:100%;
+    width:50%;
+    font-size: 1.6rem;
+    background-color: rgb(72, 185, 185);
+    text-align: center;
+    align-items: center;
+}
+.maps         {
+    display:flex;
+    height:80%;
+    width:100%;
+    background-color: black;
+}
+.mapleft         {
+    display:inline-flex;
+    height:100%;
+    width:50%;
+    background-color: black;
+}
+.mapright         {
+    display:inline-flex;
+    height:100%;
+    width:50%;
+}
+.footer         {
+    display:flex;
+    height:5%;
+    width:100%;
+    background-color: rgb(67, 77, 83);
+}
+.footerleft         {
+    display:flex;
+    height:100%;
+    width:15%;
+    background-color: rgb(10, 131, 131);
+}
+.footercenter         {
+    display:flex;
+    height:100%;
+    width:35%;
+    background-color: rgb(9, 156, 156);
+    color:rgb(190, 255, 252);
+}
+.footerright         {
+    display:inline-block;
+    height:100%;
+    width:50%;
+    background-color: rgb(72, 185, 185);
+    text-align:center;
+}
+.busquedas         {
+    display:flex;
+}
+.footer         {
+    display:flex;
+}
